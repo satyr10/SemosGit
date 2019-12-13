@@ -1,0 +1,15 @@
+.cont{
+
+	background-color: grey;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+
+.cont div {
+
+	background-color: green;
+	border: 1px black solid;
+	width: 100px;
+	margin: 10px;
+}

@@ -1,0 +1,21 @@
+body{
+
+	background-color: green;
+}
+
+.container{
+
+	display: flex;
+	flex-wrap: wrap;
+	background-color: red;
+}
+
+.box{
+
+	background-color: green;
+	width: 300px;
+	height: 200px;
+	margin: 10px;
+	background-image: url(images/riddler.jpg);
+	background-size: cover;
+}

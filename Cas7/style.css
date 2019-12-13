@@ -1,0 +1,62 @@
+body{
+
+	background-color: #262626;
+
+}
+
+.container{
+
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: stretch;
+}
+
+.item{
+
+	align-items: center;
+	flex-direction: column;
+	display: flex;
+	justify-content: center;
+	background-color: white;
+	width: 300px;
+	padding: 0 10px 10px 10px;
+	margin: 10px;
+	border-radius: 5px;
+}
+
+.box-img{
+
+	border: 5px solid black;
+	border-radius: 50%;
+	width: 80px;
+	height: 80px;
+	background-color: pink;
+	position: relative;
+	top: 40px;
+	background-image: url(images/riddler.jpg);
+	background-size: cover;
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+    background-position: center;
+
+}
+
+.img-bg{
+
+	width: 100%;
+	background-color: pink;
+	display: flex;
+	justify-content: center;
+	border-bottom: 1px solid black;
+}
+
+h1{
+
+	align-self: flex-start;
+}
+
+.item-text{
+
+	padding: 10px;
+}
