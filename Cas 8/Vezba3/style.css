@@ -1,0 +1,62 @@
+body{
+	background-color: gray;
+}
+
+.box{
+	width: 200px;
+	height: auto;
+	text-align: center;
+	margin: auto;
+	left: 0;
+	animation-name: lol;
+	animation-duration: 2s;
+	animation-fill-mode: forwards;
+}
+
+.box2{
+	width: 50%;
+	height: 300px;
+	margin: auto;
+	margin-top: 200px;
+	margin-left: -1000px;
+	position: relative;
+	top: 50%; 
+	text-align: center;
+	animation-name: lolz;
+	animation-duration: 2s;
+	animation-fill-mode: forwards;
+}
+
+button{
+
+	border: 1px solid black;
+	width: 50px;
+	height: 50px;
+	color: blue;
+	animation-name: lolk;
+	animation-duration: 2s;
+	animation-fill-mode: forwards;
+	margin-left: 70%;
+
+}
+
+@keyframes lol{
+
+	0%{margin-top: -200px;}
+	100%{margin-top: 20%;height: 20px;}
+}
+
+@keyframes lolz{
+
+	0%{margin-left: -1000px;}
+	100%{margin-left: 200px;}
+}
+
+@keyframes lolk{
+
+	0%{margin-left: 0;}
+	25%{margin-left: 10%;}
+	50%{margin-left: 15%;}
+	100%{margin-left: 50%;}
+}
+
