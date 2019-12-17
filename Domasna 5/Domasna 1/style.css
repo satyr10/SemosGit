@@ -1,0 +1,92 @@
+
+.company{
+	background-color: #336dff;
+	width: 100%;
+	height: 100px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-right: 1%;
+	margin-left: 1%;
+	text-align: center;
+	
+}
+.site{
+	background-color: gray;
+	width: 100%;
+	height: 70px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-right: 1%;
+	margin-left: 1%;
+	text-align: center;
+	justify-content: center;
+	align-self: center;
+	align-items: center;
+	align-content: center;
+	
+}
+.info{
+	width: 100%;
+	height: 305px;
+}
+.box1{
+	
+	margin-bottom: 5px;
+	margin-top: 5px;
+	margin-right: 1%;
+	margin-left: 1%;
+	text-align: center;
+	display: flex;
+	flex-wrap: wrap;
+	flex-grow: all;
+	overflow: hidden;
+	float: left;
+	justify-content: center;
+	align-self: center;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	display: inline;
+	box-sizing: border-box;
+}
+
+img{
+	width: 100%;
+	height: 100%;
+}
+.box2{
+	width: 31%;
+	height: 100px;
+	float: left;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	margin-right: 1%;
+	margin-left: 1%;
+	text-align: center;
+	float: left;
+	overflow: hidden;
+	box-sizing: border-box;
+}
+.prva1{
+	background-color: #50bfe6;
+	width: 64%;
+	height: 200px;
+}
+.prva2{
+	background-color: #50bfe6;
+	width: 31%;
+	height: 200px;
+}
+.vtora{background-color: orange;}
+
+.contact{
+	background-color: #8080806e;
+	width: 100%;
+	height: 100px;
+	margin-top: 5px;
+	margin-right: 1%;
+	margin-left: 1%;
+	text-align: center;
+	align-self: baseline;
+}
+

@@ -1,0 +1,19 @@
+body{
+
+	background-color: white;
+
+}
+.box-img{
+
+	border: 5px solid black;
+	width: 50%;
+	height: 50%;
+	position: absolute;
+	top: 40px;
+	background-image: url(images/house.jpg);
+	background-size: cover;
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+    background-position: all;
+	justify-content: center;
+}
