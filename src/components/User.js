@@ -1,29 +1,28 @@
 import React from 'react';
 
-export class User extends React.Component {
+export const User = (props) => {
 
-    render() {
-        console.log(this.props)
-        return (
-
-            <div>
-                <div id="name">
-                    <h3>{this.props.korisnik.ime}</h3>
-                </div>
-               
-                <div id="prezime">
-                    <h4>{this.props.korisnik.prezime}</h4>
-                </div>
-               
-                <div id="email">
-                    <p>{this.props.korisnik.email}</p>
-                    </div>
-                <div id="image">
-                    <img src= {this.props.korisnik.image}/>
-                </div>
-            </div>
-
-        )
-    }
-
+    return(
+        props.userList.length > 0 ?
+        <table border="1">
+                <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Username</th>
+                    <th>Email</th>
+                </tr>
+                </thead>
+                <tbody>
+                    {props.userList.map(user=>{
+                        return (
+                            <tr key={user.id}>
+                                <td>{user.name}</td>
+                                <td>{user.username}</td>
+                                <td>{user.email}</td>
+                            </tr>
+                        )
+                    })}
+                </tbody>
+            </table> : <h2>Loading...</h2>
+    )
 }
